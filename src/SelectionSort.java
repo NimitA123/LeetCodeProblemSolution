@@ -1,7 +1,7 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
-class SelectionShort {
+class SelectionSort {
     public static void main(String[] args) {
         int[] array = {3, 5, 4, 1, 2, 10, 1, -2};
         int n = array.length;
@@ -21,4 +21,6 @@ class SelectionShort {
             System.out.print(j + " ");
         }
     }
+    /*Time Complexity Worst case  0(n^2) and best case 0(n^2) and Space Complexity 0(1)
+    and it has faster algorithm */
 }
