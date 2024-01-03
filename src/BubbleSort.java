@@ -7,8 +7,8 @@ public class BubbleSort {
             for(int j = i +1;  j < n;  j++){
                 if(array[i] > array[j]){
                    int temp = array[i];
-                    array[i] = array[j];//1
-                    array[j] = temp;//3
+                    array[i] = array[j];
+                    array[j] = temp;
                     sorted = true;
                 }
 
@@ -21,6 +21,4 @@ public class BubbleSort {
             System.out.print(j + " ");
         }
     }
-    /*Time Complexity Worst case  0(n^2) and best case 0(n) and Space Complexity 0(1)
-    and it has less fast algorithm than selection short */
 }
